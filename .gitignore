@@ -58,3 +58,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Additional .gitignore file cause i'm stupid.
+GB_UnityPatterns/.gitignore
