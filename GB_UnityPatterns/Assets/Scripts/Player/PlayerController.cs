@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Asteroids.Interfaces;
+﻿using Asteroids.Interfaces;
 using UnityEngine;
 
 
@@ -21,7 +19,7 @@ namespace Asteroids.Player
 
         public PlayerController(PlayerModel playerModel, GameObject playerView)
         {
-            _playerMove = new PlayerMove(playerModel.PlayerStruct.speed, playerView.transform);
+            _playerMove = new PlayerMove(playerModel.PlayerStruct.speed, playerView.GetComponent<Rigidbody>());
             _playerRotate = new PlayerRotate(playerView.transform, Camera.main);
             _playerShoot = new PlayerShoot(playerModel.PlayerStruct.bulletPrefab, playerModel.PlayerStruct.shootForce, playerView.transform);
         }
@@ -40,7 +38,7 @@ namespace Asteroids.Player
                 _playerShoot.Shoot();
             }
 
-        }
+        } 
 
         #endregion
     }

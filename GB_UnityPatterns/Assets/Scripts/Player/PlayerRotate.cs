@@ -1,3 +1,4 @@
+using System;
 using Asteroids.Interfaces;
 using UnityEngine;
 
@@ -9,6 +10,8 @@ namespace Asteroids.Player
 
         private readonly Transform _transform;
         private readonly Camera _camera;
+
+        private const float _rotationOffset = -90;
 
         #endregion
         
@@ -30,7 +33,7 @@ namespace Asteroids.Player
         {
             var direction = input - _camera.WorldToScreenPoint(_transform.position);
             var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            _transform.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            _transform.rotation = Quaternion.AngleAxis(angle + _rotationOffset, Vector3.forward);
         }
 
         #endregion

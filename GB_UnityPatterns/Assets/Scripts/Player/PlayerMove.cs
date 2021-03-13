@@ -8,7 +8,7 @@ namespace Asteroids.Player
     {
         #region PrivateFields
 
-        private readonly Transform _transform;
+        private readonly Rigidbody _rigidbody;
 
         #endregion
         
@@ -22,10 +22,10 @@ namespace Asteroids.Player
         
         #region ClassLifeCycle
 
-        public PlayerMove(float speed, Transform transform)
+        public PlayerMove(float speed, Rigidbody rigidbody)
         {
             Speed = speed;
-            _transform = transform;
+            _rigidbody = rigidbody;
         }
 
         #endregion
@@ -35,7 +35,7 @@ namespace Asteroids.Player
         
         public void Move(Vector3 moveInput, float deltaTime)
         {
-            _transform.localPosition += Speed * deltaTime * moveInput;
+            _rigidbody.AddForce(moveInput);
         }
 
         #endregion

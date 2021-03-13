@@ -13,7 +13,7 @@ namespace Asteroids.Player
         #endregion
         
         
-        
+
         #region ClassLyfeCycles
 
         public PlayerShoot(GameObject bulletPrefab, float force, Transform transform)
@@ -30,7 +30,8 @@ namespace Asteroids.Player
 
         public void Shoot()
         {
-            var bullet = Object.Instantiate(_bulletPrefab, _transform.position, _transform.rotation);
+            Vector3 bulletOffset = new Vector3(1, 0, 0);
+            var bullet = Object.Instantiate(_bulletPrefab, _transform.position + bulletOffset, _transform.rotation);
             bullet.GetComponent<Rigidbody>().AddForce(_transform.up * _force);
         }
 
