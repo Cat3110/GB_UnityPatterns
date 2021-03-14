@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 
 namespace Asteroids.Player
@@ -9,8 +8,8 @@ namespace Asteroids.Player
     {
         #region Fiels
 
-        public GameObject _playerPrefab;
-        public Vector3 _startPosition;
+        public GameObject playerPrefab;
+        public Vector3 startPosition;
         
         public PlayerStruct playerStruct;
 
