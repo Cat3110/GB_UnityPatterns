@@ -3,14 +3,13 @@
 
 namespace Asteroids.Player
 {
-    public class PlayerInitializator
+    public sealed class PlayerInitializator
     {
         #region ClassLifeCycles
 
         public PlayerInitializator(GameController gameController, PlayerData playerData)
         {
-            var playerView = Object.Instantiate(playerData._playerPrefab,
-                playerData._startPosition, Quaternion.identity);
+            var playerView = Object.Instantiate(playerData.playerPrefab, playerData.startPosition, Quaternion.identity);
 
             var playerModel = new PlayerModel(playerData.playerStruct);
             

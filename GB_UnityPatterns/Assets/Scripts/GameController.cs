@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Xml;
+using Asteroids.Enemy;
 using UnityEngine;
 using Asteroids.Interfaces;
 using Asteroids.Player;
@@ -9,8 +12,10 @@ namespace Asteroids
     public sealed class GameController : MonoBehaviour
     {
         #region PrivateData
-
+        
         [SerializeField] private PlayerData _playerData;
+        [SerializeField] private EnemyAsteroidData _enemyAsteroidData;
+        [SerializeField] private EnemyShipData _enemyShipData;
 
         private List<IUpdatable> _iUpdatables = new List<IUpdatable>();
 
@@ -21,7 +26,7 @@ namespace Asteroids
 
         private void Start()
         {
-            new GameInitializator(this, _playerData);
+            new GameInitializator(this, _playerData, _enemyAsteroidData, _enemyShipData);
         }
 
         private void Update()

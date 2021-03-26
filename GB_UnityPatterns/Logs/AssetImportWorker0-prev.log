@@ -12,1066 +12,589 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53514
+53875
 Successfully changed project path to: /Users/catello/Documents/Education/Geekbrains/GB_UnityPatterns/GB_UnityPatterns
 /Users/catello/Documents/Education/Geekbrains/GB_UnityPatterns/GB_UnityPatterns
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.91 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 27.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/catello/Documents/Education/Geekbrains/GB_UnityPatterns/GB_UnityPatterns/Assets
 GfxDevice: creating device client; threaded=0
-2021-03-14 00:19:34.451 Unity[4096:203935] Color LCD preferred device: AMD Radeon Pro 450 (high power)
-2021-03-14 00:19:34.452 Unity[4096:203935] Metal devices available: 2
-2021-03-14 00:19:34.452 Unity[4096:203935] 0: AMD Radeon Pro 450 (high power)
-2021-03-14 00:19:34.452 Unity[4096:203935] 1: Intel(R) HD Graphics 530 (low power)
-2021-03-14 00:19:34.453 Unity[4096:203935] Using device AMD Radeon Pro 450 (high power)
+2021-03-14 00:38:38.762 Unity[4926:218883] Color LCD preferred device: AMD Radeon Pro 450 (high power)
+2021-03-14 00:38:38.762 Unity[4926:218883] Metal devices available: 2
+2021-03-14 00:38:38.762 Unity[4926:218883] 0: AMD Radeon Pro 450 (high power)
+2021-03-14 00:38:38.762 Unity[4926:218883] 1: Intel(R) HD Graphics 530 (low power)
+2021-03-14 00:38:38.763 Unity[4926:218883] Using device AMD Radeon Pro 450 (high power)
 Initializing Metal device caps: AMD Radeon Pro 450
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56926
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000657 seconds.
+Registered in 0.000615 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 31.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 26.87 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.722 seconds
+- Completed reload, in  2.107 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000492 seconds.
+Registered in 0.000425 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
+- Completed reload, in  1.106 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1130 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.7 MB.
-System memory in use after: 111.8 MB.
+System memory in use before: 112.0 MB.
+System memory in use after: 112.1 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1575.
-Total: 2.567867 ms (FindLiveObjects: 0.217899 ms CreateObjectMapping: 0.055049 ms MarkObjects: 2.199854 ms  DeleteObjects: 0.093398 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1577.
+Total: 2.941305 ms (FindLiveObjects: 0.244997 ms CreateObjectMapping: 0.070642 ms MarkObjects: 2.508665 ms  DeleteObjects: 0.115154 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.png
-  artifactKey: Guid(c8067c55687194bd2acef85f36c1361e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.png using Guid(c8067c55687194bd2acef85f36c1361e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60174fea62e4d229ace9ae77b8f473a') in 1.316113 seconds
-  Import took 1.319084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png
-  artifactKey: Guid(7df9fbeb8695f4e8eb05ed19d4add82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png using Guid(7df9fbeb8695f4e8eb05ed19d4add82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db9d5236223adeaec16ea7b2c18b561') in 0.025478 seconds
-  Import took 0.027886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.mat
-  artifactKey: Guid(131aa6d213d394bb7a90a9e0f87922f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.mat using Guid(131aa6d213d394bb7a90a9e0f87922f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090d1f1cfe1e2bc79893e01f82c01957') in 1.137706 seconds
-  Import took 1.142857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_2_Left+X.png
-  artifactKey: Guid(2a5d1088df1194c2aaccb485e3d1a1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_2_Left+X.png using Guid(2a5d1088df1194c2aaccb485e3d1a1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4975e1bd41026a067ffab64ba4464526') in 0.011573 seconds
-  Import took 0.014004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Equirect.mat
-  artifactKey: Guid(64948795d33e540d68db50fb078000f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Equirect.mat using Guid(64948795d33e540d68db50fb078000f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c03a272f267abc4828e1b77257d1e28') in 0.042770 seconds
-  Import took 0.048145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png
-  artifactKey: Guid(532301ffb1ef34161a1ff8a8d811758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png using Guid(532301ffb1ef34161a1ff8a8d811758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a772570da730dc2611dfedbdf51d4ba') in 0.009670 seconds
-  Import took 0.012088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_0_Front+Z.png
-  artifactKey: Guid(2d73b75f931534c68aa1de2b51cf924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_0_Front+Z.png using Guid(2d73b75f931534c68aa1de2b51cf924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17801f47c77f499e2ec94359dbc51f41') in 0.010844 seconds
-  Import took 0.013309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_0_Front+Z.png
-  artifactKey: Guid(6e8b5e6c8543b45ee9cbb5e63e4d3230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_0_Front+Z.png using Guid(6e8b5e6c8543b45ee9cbb5e63e4d3230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1abef550f57481a5c4050520ea7fd4b') in 0.010507 seconds
-  Import took 0.013077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_5_Down-Y.png
-  artifactKey: Guid(dbe362aa022724f44986f481eb224044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_5_Down-Y.png using Guid(dbe362aa022724f44986f481eb224044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430939ebcdb33261c328955546082797') in 0.009395 seconds
-  Import took 0.012681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_1_Back-Z.png
-  artifactKey: Guid(97447b71b7bab4650915fadcc0940898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_1_Back-Z.png using Guid(97447b71b7bab4650915fadcc0940898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308ad8b380e4220955efffab827d309e') in 0.009133 seconds
-  Import took 0.011886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png
-  artifactKey: Guid(54ec03dfb2aa545f2a66aa70519854c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png using Guid(54ec03dfb2aa545f2a66aa70519854c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdb799fc377f03b2ac98d9cbdcfe5db') in 0.014371 seconds
-  Import took 0.016843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_3_Right-X.png
-  artifactKey: Guid(fa8ecfc8ab6584285b5589d691304d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_3_Right-X.png using Guid(fa8ecfc8ab6584285b5589d691304d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3e0b3c12260cc19292401d9c04cc6f') in 0.012873 seconds
-  Import took 0.015182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_4_Up+Y.png
-  artifactKey: Guid(f6c0bf4edc3c94529952995bd72b1b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_4_Up+Y.png using Guid(f6c0bf4edc3c94529952995bd72b1b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcba0664ff0b28538a5abfea07fdf11') in 0.014184 seconds
-  Import took 0.016925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_3_Right-X.png
-  artifactKey: Guid(1164a044dd5df41c085aab5f5187473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_3_Right-X.png using Guid(1164a044dd5df41c085aab5f5187473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ddd12a08511b8f168214650aa1d305') in 0.013320 seconds
-  Import took 0.015669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_4_Up+Y.png
-  artifactKey: Guid(ec42d2c5ce48b4628ae6f9aacd4e10fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Cam_4_Up+Y.png using Guid(ec42d2c5ce48b4628ae6f9aacd4e10fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df65eb81765ecaa53c411a748c0ade2') in 0.014600 seconds
-  Import took 0.017281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula.mat
-  artifactKey: Guid(4cb84fb8418ec4e479a255438d249193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula.mat using Guid(4cb84fb8418ec4e479a255438d249193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f23904d92cbbf3dcc4cef316f272ce2') in 0.425299 seconds
-  Import took 0.428089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Equirect.png
-  artifactKey: Guid(6c38d422dd3b0435cb4223886c90a4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Cold_Nebula_Starless/AllSky_Space_ColdNebula_Equirect.png using Guid(6c38d422dd3b0435cb4223886c90a4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f40960c0f78457c719e0f38077a07d5') in 0.146388 seconds
-  Import took 0.150635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.mat
-  artifactKey: Guid(304449922f7da4d579ccbab2bd2327e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.mat using Guid(304449922f7da4d579ccbab2bd2327e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355d18a35058e794502ede043d328c41') in 0.039242 seconds
-  Import took 0.041770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.269372 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace.mat
-  artifactKey: Guid(28934ae383b7a4a81883f8df79fe6445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace.mat using Guid(28934ae383b7a4a81883f8df79fe6445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ad8c811a386e87c54eb20807602bab') in 0.035167 seconds
-  Import took 0.038461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Equirect.png
-  artifactKey: Guid(8c619c3c7174045a48304545a01094f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Equirect.png using Guid(8c619c3c7174045a48304545a01094f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41390c91267672bff0d8516fd118cbd1') in 0.146158 seconds
-  Import took 0.149664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_3_Right-X.png
-  artifactKey: Guid(9241d1479b62a484190a873464752d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_3_Right-X.png using Guid(9241d1479b62a484190a873464752d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2efa17a0fcf5467bfd6016de593bba3') in 0.011278 seconds
-  Import took 0.013610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_2_Left+X.png
-  artifactKey: Guid(dcc89a5c874964bcc814467998bc48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_2_Left+X.png using Guid(dcc89a5c874964bcc814467998bc48d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5ea881119a6e7bb459c56609266194') in 0.019940 seconds
-  Import took 0.022953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_0_Front+Z.png
-  artifactKey: Guid(3247c5a7c290e4663a45dfe22ea85537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_0_Front+Z.png using Guid(3247c5a7c290e4663a45dfe22ea85537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e569ccfc904982dc9d94442011114e2f') in 0.021099 seconds
-  Import took 0.024367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_1_Back-Z.png
-  artifactKey: Guid(b57180c0e97eb46debbc8f724aaaa560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_1_Back-Z.png using Guid(b57180c0e97eb46debbc8f724aaaa560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e6e60ebd1136dbfb4e19f2e01557a1') in 0.010025 seconds
-  Import took 0.013518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Equirect.mat
-  artifactKey: Guid(93c8867abb6bd4ce7a932d22868de52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Equirect.mat using Guid(93c8867abb6bd4ce7a932d22868de52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbdc60680be938250a1bf8237d4133a') in 0.030790 seconds
-  Import took 0.034719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_4_Up+Y.png
-  artifactKey: Guid(71fa33f0fd2cf4db78cb98d661dd32fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_4_Up+Y.png using Guid(71fa33f0fd2cf4db78cb98d661dd32fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1a6a3789a955258385545abcf9de31') in 0.009376 seconds
-  Import took 0.012136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_5_Down-Y.png
-  artifactKey: Guid(00755763b6c484ddf9d69fae98fc5596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Dark_Starless/AllSky_Space_DarkSpace_Cam_5_Down-Y.png using Guid(00755763b6c484ddf9d69fae98fc5596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf84cd567c75a8f775bddb6199d988bd') in 0.009999 seconds
-  Import took 0.013126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.247085 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_InTheVortex/AllSky_Space_InTheVortex Equirect.mat
-  artifactKey: Guid(e0594306cc15b4d2ebabdb1e0c9830e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_InTheVortex/AllSky_Space_InTheVortex Equirect.mat using Guid(e0594306cc15b4d2ebabdb1e0c9830e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58430f32d319a5c6633abb87b6ad969') in 0.042295 seconds
-  Import took 0.047166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_InTheVortex/AllSky_Space_InTheVortex Equirect.png
-  artifactKey: Guid(46d5874372228443fa0640e1bebd08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_InTheVortex/AllSky_Space_InTheVortex Equirect.png using Guid(46d5874372228443fa0640e1bebd08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23003b63b45a371d67125d8cda682f98') in 0.145435 seconds
-  Import took 0.150649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_1_Back-Z.png
-  artifactKey: Guid(bc53c9d179665437eb2ae666fd1f119a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_1_Back-Z.png using Guid(bc53c9d179665437eb2ae666fd1f119a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2f22fc5c3a9a360e4d13e3af84a5a4') in 0.011262 seconds
-  Import took 0.013946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex.mat
-  artifactKey: Guid(ccb9012beb7ed4b3d9271f3a598e4f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex.mat using Guid(ccb9012beb7ed4b3d9271f3a598e4f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f481d4f42fe7a8d5f1d42a0493dbfe') in 0.044835 seconds
-  Import took 0.048277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_4_Up+Y.png
-  artifactKey: Guid(368a5677c8f3a45c69b260bbce1011c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_4_Up+Y.png using Guid(368a5677c8f3a45c69b260bbce1011c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c39494b58157dfa43eabe4daf7e243d') in 0.011260 seconds
-  Import took 0.013949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_3_Right-X.png
-  artifactKey: Guid(4b720e3ae375e4cc6b15cd979d8a839e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_3_Right-X.png using Guid(4b720e3ae375e4cc6b15cd979d8a839e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70eb3ada282bfbf7e58808bbf9e4b028') in 0.011092 seconds
-  Import took 0.014370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_5_Down-Y.png
-  artifactKey: Guid(623c7b822fbb14c01b752a6aed4ef064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_5_Down-Y.png using Guid(623c7b822fbb14c01b752a6aed4ef064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbede50ddd24e7dce5e3ea065b30db6') in 0.009774 seconds
-  Import took 0.012483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_0_Front+Z.png
-  artifactKey: Guid(5d8b354285e954b9aafe3f7522f36e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_0_Front+Z.png using Guid(5d8b354285e954b9aafe3f7522f36e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aacf8c3f823f1ba7fe7951cf674ede2') in 0.012464 seconds
-  Import took 0.014803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_2_Left+X.png
-  artifactKey: Guid(0699e19b9ea074854b591898adb534be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_InTheVortex/Space_InTheVortex_Cam_2_Left+X.png using Guid(0699e19b9ea074854b591898adb534be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a949b7b17ebf7123743d5d0800e41e6') in 0.015348 seconds
-  Import took 0.017580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.012135 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_0_Front+Z.png
-  artifactKey: Guid(c35a6c6f47622495a8223791e4a66f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_0_Front+Z.png using Guid(c35a6c6f47622495a8223791e4a66f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf9d664a985cef058f281181546a47f') in 0.017760 seconds
-  Import took 0.020506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Space_Nebula_BlueRed.mat
-  artifactKey: Guid(8ffcf1f9830ce4f56a7a52aa93f579ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Space_Nebula_BlueRed.mat using Guid(8ffcf1f9830ce4f56a7a52aa93f579ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17eb2ec3bf2977bddbb7d53810569e9') in 0.038864 seconds
-  Import took 0.041712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_1_Back-Z.png
-  artifactKey: Guid(49bf44a30a1bc475fb9661cee229823e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_1_Back-Z.png using Guid(49bf44a30a1bc475fb9661cee229823e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef7c9549da6efad1c2f27954a06c97a') in 0.015271 seconds
-  Import took 0.017745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_4_Up+Y.png
-  artifactKey: Guid(2501dcf45e384404ab277fa6776b5b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_4_Up+Y.png using Guid(2501dcf45e384404ab277fa6776b5b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39377ee16575285447478f5eb71e916') in 0.013910 seconds
-  Import took 0.016723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Space_Nebula_BlueRed Equirect.mat
-  artifactKey: Guid(31860561804734da194fb5d54a9e9492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Space_Nebula_BlueRed Equirect.mat using Guid(31860561804734da194fb5d54a9e9492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2662ab0733ec4dcac8b16fcecdcaeda') in 0.030336 seconds
-  Import took 0.035526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_5_Down-Y.png
-  artifactKey: Guid(1f887afdce2b64c6daa8472bbaecfc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_5_Down-Y.png using Guid(1f887afdce2b64c6daa8472bbaecfc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944a8cbe45259c05c73dba1373a6e5a1') in 0.010859 seconds
-  Import took 0.014122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Space_Nebula_BlueRed Equirect.png
-  artifactKey: Guid(4cbe10dc8dcd14b529a78b13c3684fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Space_Nebula_BlueRed Equirect.png using Guid(4cbe10dc8dcd14b529a78b13c3684fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322fa3e9385bcd6c035196e5cd2f67ff') in 0.149995 seconds
-  Import took 0.154466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_2_Left+X.png
-  artifactKey: Guid(7d6077b2df6514beeafbff89a9f0bdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_2_Left+X.png using Guid(7d6077b2df6514beeafbff89a9f0bdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7823214fd8dca172599107b1fb2d1071') in 0.011947 seconds
-  Import took 0.014483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_3_Right-X.png
-  artifactKey: Guid(2f10d7e8dec204d16ba04a15539e6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_BlueRed/Sky_Space_Nebula_BlueRed_Cam_3_Right-X.png using Guid(2f10d7e8dec204d16ba04a15539e6171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3444fbc9962325e687a91e90c41a16e1') in 0.025865 seconds
-  Import took 0.028541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.393008 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_0_Front+Z.png
-  artifactKey: Guid(300d2423632ba4e2e838ad36081f6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_0_Front+Z.png using Guid(300d2423632ba4e2e838ad36081f6d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65aeae25b2c1dc5d0934d4c2a2bba63') in 0.013725 seconds
-  Import took 0.016223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_4_Up+Y.png
-  artifactKey: Guid(63521e5cc20ce4833bb8cd6ca5c0b135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_4_Up+Y.png using Guid(63521e5cc20ce4833bb8cd6ca5c0b135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf6ed1222a8506e838fd61731406748') in 0.010610 seconds
-  Import took 0.013003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_3_Right-X.png
-  artifactKey: Guid(7500b2bef6a6646768ce24f09bf30c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_3_Right-X.png using Guid(7500b2bef6a6646768ce24f09bf30c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d51f365ffa2d90540924a6c8c8e1e32') in 0.014649 seconds
-  Import took 0.017055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_2_Left+X.png
-  artifactKey: Guid(fa36991bceba34adfaa7cf2ffbc75f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_2_Left+X.png using Guid(fa36991bceba34adfaa7cf2ffbc75f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3ba389b30603e173e7a545d599d9b8') in 0.018912 seconds
-  Import took 0.022310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_5_Down-Y.png
-  artifactKey: Guid(c133ce93517494c9f9a7c39817469a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_5_Down-Y.png using Guid(c133ce93517494c9f9a7c39817469a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f8e9b93dee1f05e3b9a7a3aafe3fd7') in 0.014787 seconds
-  Import took 0.017888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack Equirect.mat
-  artifactKey: Guid(9b3ba949a988d420c88d7c2e09b3e120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack Equirect.mat using Guid(9b3ba949a988d420c88d7c2e09b3e120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a35ee8712eb0861426bc921e9bca68') in 0.029177 seconds
-  Import took 0.033414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack.mat
-  artifactKey: Guid(d9c47489d80b947e3bceb3e874515ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack.mat using Guid(d9c47489d80b947e3bceb3e874515ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524c189ad4a2a634deacddbbccfcb993') in 0.028006 seconds
-  Import took 0.031570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_1_Back-Z.png
-  artifactKey: Guid(ca43f09e3074244f39121584d29373c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Sky_Space_Nebula_DeepBlack_Cam_1_Back-Z.png using Guid(ca43f09e3074244f39121584d29373c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4883213ebb7c6c98ad0e6835d116fbc') in 0.009170 seconds
-  Import took 0.012004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack Equirect.png
-  artifactKey: Guid(4e9c33a72a4bb407ab5432a5ae4d7dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack Equirect.png using Guid(4e9c33a72a4bb407ab5432a5ae4d7dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5766a697a0e03112e68256e8495b00c') in 0.152727 seconds
-  Import took 0.156697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.608612 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_0_Front+Z.png
-  artifactKey: Guid(c1a14aced31f649e78da2abd6f6db883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_0_Front+Z.png using Guid(c1a14aced31f649e78da2abd6f6db883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f319f3339036331f8e13b726d21c0006') in 0.019768 seconds
-  Import took 0.022499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Green/Space_Nebula_Green.mat
-  artifactKey: Guid(86654456a99024deaaca3d778e830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Green/Space_Nebula_Green.mat using Guid(86654456a99024deaaca3d778e830e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76c28f904b4d711bfac23819900fe95') in 0.032770 seconds
-  Import took 0.035907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Green/Space_Nebula_Green Equirect.png
-  artifactKey: Guid(da9edc2edd4be47afb01e2eff1cfa0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Green/Space_Nebula_Green Equirect.png using Guid(da9edc2edd4be47afb01e2eff1cfa0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69e78a2e96346acb9c830e01e91b53e') in 0.150375 seconds
-  Import took 0.155530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_3_Right-X.png
-  artifactKey: Guid(28c6af9ef44c84df98a57dc3f9e4dbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_3_Right-X.png using Guid(28c6af9ef44c84df98a57dc3f9e4dbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3b96526d2f77e3ad468862de8c7271') in 0.011110 seconds
-  Import took 0.014024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_5_Down-Y.png
-  artifactKey: Guid(f25c848506aa14838a1661dae0f016ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_5_Down-Y.png using Guid(f25c848506aa14838a1661dae0f016ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a11385c257d7b38e38a65ddf6424e13') in 0.010566 seconds
-  Import took 0.013427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_1_Back-Z.png
-  artifactKey: Guid(060af0ded89e948bda19c65d94bef938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_1_Back-Z.png using Guid(060af0ded89e948bda19c65d94bef938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefbc143fbffab20722f0efed0da37a4') in 0.027358 seconds
-  Import took 0.030484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_4_Up+Y.png
-  artifactKey: Guid(077a23f9fe68a4a8896d93fc1089422c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_4_Up+Y.png using Guid(077a23f9fe68a4a8896d93fc1089422c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff6b262eed71135816e06c4ae085576') in 0.011158 seconds
-  Import took 0.014171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Green/Space_Nebula_Green Equirect.mat
-  artifactKey: Guid(2e24f4e37530341229ba9a1a70d2a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Green/Space_Nebula_Green Equirect.mat using Guid(2e24f4e37530341229ba9a1a70d2a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e6d3fd1f84e5bde8f0266c75dcb871') in 0.031035 seconds
-  Import took 0.035855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_2_Left+X.png
-  artifactKey: Guid(00256e1831a4242caba997289b8cd667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Green/Sky_Space_Nebula_Green_Cam_2_Left+X.png using Guid(00256e1831a4242caba997289b8cd667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d06d6c782154b318931b67b0d13256') in 0.010853 seconds
-  Import took 0.013400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.463225 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_0_Front+Z.png
-  artifactKey: Guid(970da3fb492b8493c978c9d146d62698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_0_Front+Z.png using Guid(970da3fb492b8493c978c9d146d62698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93822e0c326f3f37771f0304fa5dbcbb') in 0.019723 seconds
-  Import took 0.022411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Space_Nebula_NuminousGlow Equirect.mat
-  artifactKey: Guid(237e2f923b35447debb80a21ffdacea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Space_Nebula_NuminousGlow Equirect.mat using Guid(237e2f923b35447debb80a21ffdacea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f05d04be22039378d8443ffc17cde18') in 0.039680 seconds
-  Import took 0.043925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_2_Left+X.png
-  artifactKey: Guid(71f8bf66f88d84d90a1a2d539e3d389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_2_Left+X.png using Guid(71f8bf66f88d84d90a1a2d539e3d389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afbb3338bfed588a461dbd9e749abb2') in 0.016533 seconds
-  Import took 0.019357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_4_Up+Y.png
-  artifactKey: Guid(e1bc7a7a9d3714d13a191973c4c06163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_4_Up+Y.png using Guid(e1bc7a7a9d3714d13a191973c4c06163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa0beb0b4281aa7eb5b19060862f0d7') in 0.010579 seconds
-  Import took 0.013496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_1_Back-Z.png
-  artifactKey: Guid(b2c1db8c2eaca4a6cb7d4aefd0b1854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_1_Back-Z.png using Guid(b2c1db8c2eaca4a6cb7d4aefd0b1854f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b926fe33b33041566fa4b7322a7a71') in 0.009317 seconds
-  Import took 0.011674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_3_Right-X.png
-  artifactKey: Guid(97b1466ae6f1b48a989e4cce948fbb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_3_Right-X.png using Guid(97b1466ae6f1b48a989e4cce948fbb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162e666c8a20d5830487bd0e93a8226b') in 0.011569 seconds
-  Import took 0.014300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Space_Nebula_NuminousGlow.mat
-  artifactKey: Guid(2406aa94d9ec94114a5d530b14dd29e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Space_Nebula_NuminousGlow.mat using Guid(2406aa94d9ec94114a5d530b14dd29e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002942752f95fef5b2dd4900d4c1197c') in 0.028216 seconds
-  Import took 0.030681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_5_Down-Y.png
-  artifactKey: Guid(52c502fe64559463c98fa8bd37bbaa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Sky_Space_Nebula_NuminousGlow_Cam_5_Down-Y.png using Guid(52c502fe64559463c98fa8bd37bbaa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16c07e23e0b503985608971c4d5bbaf') in 0.011603 seconds
-  Import took 0.014435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Space_Nebula_NuminousGlow Equirect.png
-  artifactKey: Guid(ce4a1e98b3ab248bb8d692a338df5a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_NuminousGlow/Space_Nebula_NuminousGlow Equirect.png using Guid(ce4a1e98b3ab248bb8d692a338df5a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925b0cf3323e72e0da2d7f72749ab813') in 0.154454 seconds
-  Import took 0.159840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.265698 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_0_Front+Z.png
-  artifactKey: Guid(5908c4df95a92469e9049218cd670ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_0_Front+Z.png using Guid(5908c4df95a92469e9049218cd670ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09728209ec7be63eb2f65bb7dc0eb8b4') in 0.021553 seconds
-  Import took 0.025221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Space_Nebula_OrangeBlue Equirect.mat
-  artifactKey: Guid(8e968b31e09024124acd7fe3c74b4e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Space_Nebula_OrangeBlue Equirect.mat using Guid(8e968b31e09024124acd7fe3c74b4e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f192c0e1f49d90b6986b54399c3895f2') in 0.038494 seconds
-  Import took 0.044573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_2_Left+X.png
-  artifactKey: Guid(d0b82a5a617654bd4b9926d9dde8d999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_2_Left+X.png using Guid(d0b82a5a617654bd4b9926d9dde8d999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12257187431b4d30eea6e8f5d8b89287') in 0.015006 seconds
-  Import took 0.017533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_3_Right-X.png
-  artifactKey: Guid(d95267847a2464dcdb511e84bfefb517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_3_Right-X.png using Guid(d95267847a2464dcdb511e84bfefb517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cf1814670418fd1146da05b762e77e') in 0.010683 seconds
-  Import took 0.013345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Space_Nebula_OrangeBlue.mat
-  artifactKey: Guid(0a00d0c95a6af49b480ad487ad4669ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Space_Nebula_OrangeBlue.mat using Guid(0a00d0c95a6af49b480ad487ad4669ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125c6b347a6a2b3ef90dda7867a93536') in 0.027299 seconds
-  Import took 0.029845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_1_Back-Z.png
-  artifactKey: Guid(02e9b3dd9983b48ba886ec5d10678300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_1_Back-Z.png using Guid(02e9b3dd9983b48ba886ec5d10678300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891dc23a2b8aa2d13c6ee22f71ffbcd0') in 0.010410 seconds
-  Import took 0.013242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Space_Nebula_OrangeBlue Equirect.png
-  artifactKey: Guid(832b53496e8f046eba0abb9bfe3c2fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Space_Nebula_OrangeBlue Equirect.png using Guid(832b53496e8f046eba0abb9bfe3c2fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f25d78cd104be58f45234d934f75bbd') in 0.153230 seconds
-  Import took 0.157830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_4_Up+Y.png
-  artifactKey: Guid(dea36e8c7e0084f2ab4581257d2d87cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_4_Up+Y.png using Guid(dea36e8c7e0084f2ab4581257d2d87cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed352df21c0702ff4e9a6fde5a1c04b') in 0.014045 seconds
-  Import took 0.016489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_5_Down-Y.png
-  artifactKey: Guid(5782552e4f16442cd9e82543ea30cb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_OrangeBlue/Sky_Space_Nebula_OrangeBlue_Cam_5_Down-Y.png using Guid(5782552e4f16442cd9e82543ea30cb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760722fb5b5057af009725436faf29de') in 0.013576 seconds
-  Import took 0.016755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.353885 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_0_Front+Z.png
-  artifactKey: Guid(4970d144d178126428b4ce82d8e451bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_0_Front+Z.png using Guid(4970d144d178126428b4ce82d8e451bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a853113e7434c7dfdb6d3cbb15ca870') in 0.018146 seconds
-  Import took 0.021017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Neon_Starless/Space_Neon_Starless Equirect.mat
-  artifactKey: Guid(9ca516ea9788244b1bba4abf95ef2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Neon_Starless/Space_Neon_Starless Equirect.mat using Guid(9ca516ea9788244b1bba4abf95ef2639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a50e9aa183f496e3d4ef59795a7006cf') in 0.036084 seconds
-  Import took 0.040832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_3_Right-X.png
-  artifactKey: Guid(27e70fb1c7b48584099fc364db41f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_3_Right-X.png using Guid(27e70fb1c7b48584099fc364db41f815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15bf5f4cca1ab01174753b031513668') in 0.015896 seconds
-  Import took 0.018458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_4_Up+Y.png
-  artifactKey: Guid(93196b9e048c08a4bb0c1f85545283a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_4_Up+Y.png using Guid(93196b9e048c08a4bb0c1f85545283a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f26994310b68f1d71683340dba062dd') in 0.010988 seconds
-  Import took 0.013537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Neon_Starless/Space_Neon_Starless Equirect.png
-  artifactKey: Guid(9756b25e81e414fadae18e72a9fb9e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Neon_Starless/Space_Neon_Starless Equirect.png using Guid(9756b25e81e414fadae18e72a9fb9e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2effdfc8759fa7361dbdc8e6a74aff86') in 0.149471 seconds
-  Import took 0.154159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Neon_Starless/Space_Neon_Starless.mat
-  artifactKey: Guid(8198728492dfe354fb0bfba0ce8529d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Neon_Starless/Space_Neon_Starless.mat using Guid(8198728492dfe354fb0bfba0ce8529d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32f64132239a7b22e3fd120d767eb23') in 0.558952 seconds
-  Import took 0.561427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_5_Down-Y.png
-  artifactKey: Guid(71cb4090a4b8eae49a686294125d9037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_5_Down-Y.png using Guid(71cb4090a4b8eae49a686294125d9037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3000f352cc842a51ffb97c0bd97f62f') in 0.011632 seconds
-  Import took 0.013840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_2_Left+X.png
-  artifactKey: Guid(9532b0a959a52c3448fa93a5a74fefef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_2_Left+X.png using Guid(9532b0a959a52c3448fa93a5a74fefef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918957a094ba5570b342dda097a09d60') in 0.017591 seconds
-  Import took 0.019906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_1_Back-Z.png
-  artifactKey: Guid(8fce683341e55fc4288a15d77cd6f356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Neon_Starless/AllSky_Space_Neon_Starless_Cam_1_Back-Z.png using Guid(8fce683341e55fc4288a15d77cd6f356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77adffa929e1cf06bf18dfc4d57135be') in 0.026539 seconds
-  Import took 0.028730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.824964 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_0_Front+Z.png
-  artifactKey: Guid(43abedf6c8ece480e9f1a77c53e3ed30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_0_Front+Z.png using Guid(43abedf6c8ece480e9f1a77c53e3ed30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69083744e78bfa2ed36b57ef62116396') in 0.017386 seconds
-  Import took 0.020782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_1_Back-Z.png
-  artifactKey: Guid(b66f078d21d18429a805143a1b0f21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_1_Back-Z.png using Guid(b66f078d21d18429a805143a1b0f21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fc58add35ed14f1545baf187094e32') in 0.012584 seconds
-  Import took 0.015052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_3_Right-X.png
-  artifactKey: Guid(1b1353bdc3b764272be516eedad56881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_3_Right-X.png using Guid(1b1353bdc3b764272be516eedad56881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaca30bbc2eb0db99f5b4dab9a5fcce9') in 0.010472 seconds
-  Import took 0.012820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_4_Up+Y.png
-  artifactKey: Guid(5c991213fc5f9423e8a9f4d5b2ca8852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_4_Up+Y.png using Guid(5c991213fc5f9423e8a9f4d5b2ca8852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad160c9136bc3202856c2f9746a46c2e') in 0.014697 seconds
-  Import took 0.017119 seconds .
+  path: Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack.unity
+  artifactKey: Guid(c8754ab60a4be4f7faa80ab4db99b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlack.unity using Guid(c8754ab60a4be4f7faa80ab4db99b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7b73791e6edf9c51f935b819e8ac87') in 0.014698 seconds
+  Import took 0.017848 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000277 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_5_Down-Y.png
-  artifactKey: Guid(40dffacac4be84f14b1537a049499a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_5_Down-Y.png using Guid(40dffacac4be84f14b1537a049499a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1228b83a9195ba1d20b3c91fee0d6e2') in 0.025625 seconds
-  Import took 0.028414 seconds .
+  path: Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlackSettings.lighting
+  artifactKey: Guid(7308d2478ae684936b55de818475e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/Allsky/Space/Space_Nebula_DeepBlack/Space_Nebula_DeepBlackSettings.lighting using Guid(7308d2478ae684936b55de818475e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '4f6631743ba86692f15151ade8c24373') in 1.027273 seconds
+  Import took 1.029342 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Red/Space_Nebula_Red Equirect.png
-  artifactKey: Guid(fa3990e70440342959861c4e5bae70fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Red/Space_Nebula_Red Equirect.png using Guid(fa3990e70440342959861c4e5bae70fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef41a42a29c658bc540a2c98df869342') in 0.149239 seconds
-  Import took 0.153569 seconds .
+  Time since last request: 8.300980 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock1.prefab
+  artifactKey: Guid(a028a9caf7ccf2443a238296ded73a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock1.prefab using Guid(a028a9caf7ccf2443a238296ded73a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6879530fc65d205236c767590b8bad52') in 0.709242 seconds
+  Import took 0.713757 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_2_Left+X.png
-  artifactKey: Guid(6d2ab54013782454a8fb9af88c6e33e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Red/Sky_Space_Nebula_Red_Cam_2_Left+X.png using Guid(6d2ab54013782454a8fb9af88c6e33e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3119aa65b4f82718b1a1831bce9e588') in 0.013728 seconds
-  Import took 0.016058 seconds .
+  Time since last request: 0.000244 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock8.prefab
+  artifactKey: Guid(52e5665ed874ab649afee8d6df0ab38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock8.prefab using Guid(52e5665ed874ab649afee8d6df0ab38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd276891b990aa8f4788938971b6e19ac') in 0.062371 seconds
+  Import took 0.066905 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Red/Space_Nebula_Red.mat
-  artifactKey: Guid(cc60b7299736c4bacb502dbbee7c16b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Red/Space_Nebula_Red.mat using Guid(cc60b7299736c4bacb502dbbee7c16b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ebf3414bf58c924d853e721684f9e8') in 0.043813 seconds
-  Import took 0.046569 seconds .
+  Time since last request: 0.000229 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock10.prefab
+  artifactKey: Guid(8312a98dccd9dba4ab86a80fa392cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock10.prefab using Guid(8312a98dccd9dba4ab86a80fa392cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fb4b7821cb3a8c9815342ccbb29fef') in 0.064315 seconds
+  Import took 0.068469 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_Nebula_Red/Space_Nebula_Red Equirect.mat
-  artifactKey: Guid(d8f93816b3e3e4ab6b82a71d72371d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_Nebula_Red/Space_Nebula_Red Equirect.mat using Guid(d8f93816b3e3e4ab6b82a71d72371d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946a30892e60b560f8bb61f16a82b06b') in 0.031579 seconds
-  Import took 0.036654 seconds .
+  Time since last request: 0.000270 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture12.prefab
+  artifactKey: Guid(16165ff48390af44f993e05c19bac115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture12.prefab using Guid(16165ff48390af44f993e05c19bac115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b321b0fb604ceb8aa2515cbaaefa6b') in 0.058737 seconds
+  Import took 0.062939 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.939710 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_0_Front+Z.png
-  artifactKey: Guid(eef705c98750ca641aa280558c328f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_0_Front+Z.png using Guid(eef705c98750ca641aa280558c328f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1cebb2e66d71e7efa6f54c6e6ab2a9') in 0.017490 seconds
-  Import took 0.020298 seconds .
+  Time since last request: 0.000216 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture14.prefab
+  artifactKey: Guid(a833525238ff43641adecba6d1e74821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture14.prefab using Guid(a833525238ff43641adecba6d1e74821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c183476a33b6459168f4720e184fb541') in 0.056325 seconds
+  Import took 0.060495 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_3_Right-X.png
-  artifactKey: Guid(54729e8517ffa0247b3e57da68466d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_3_Right-X.png using Guid(54729e8517ffa0247b3e57da68466d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f57b14bf4d2b28d130681769ec817d') in 0.010973 seconds
-  Import took 0.013250 seconds .
+  Time since last request: 0.000301 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock6.prefab
+  artifactKey: Guid(a7650c1ce3d21654ebf92d7ebf494bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock6.prefab using Guid(a7650c1ce3d21654ebf92d7ebf494bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756f0274a067e217f3f8b76285ff7cf7') in 0.059246 seconds
+  Import took 0.063683 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_1_Back-Z.png
-  artifactKey: Guid(6dde98f419f5ea54280fa06d92e6b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_1_Back-Z.png using Guid(6dde98f419f5ea54280fa06d92e6b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e8fbc4c99e29e5bf54b5a951ea0f0f') in 0.013261 seconds
-  Import took 0.015815 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture9.prefab
+  artifactKey: Guid(c03bd4a9c21eff74a8771f8e0d70e711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture9.prefab using Guid(c03bd4a9c21eff74a8771f8e0d70e711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd163fc0e469b164f1bed3b606fc542f3') in 0.062970 seconds
+  Import took 0.067023 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/Space_VortexCloud_Starless Equirect.mat
-  artifactKey: Guid(2c3df5b3511214f749fc7cdca2d690a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/Space_VortexCloud_Starless Equirect.mat using Guid(2c3df5b3511214f749fc7cdca2d690a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad38a49acc1adfa64b8e5023f6a4addd') in 0.032599 seconds
-  Import took 0.036674 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture13.prefab
+  artifactKey: Guid(b66485824d4da074ca57921ca152d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture13.prefab using Guid(b66485824d4da074ca57921ca152d924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd9dd66bee1a850cf7041a19213cae1') in 0.067118 seconds
+  Import took 0.071226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_5_Down-Y.png
-  artifactKey: Guid(62ff87bf26ae72b48979de06dbe37845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_5_Down-Y.png using Guid(62ff87bf26ae72b48979de06dbe37845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5859682c58f68debcde3a7821de165e1') in 0.011460 seconds
-  Import took 0.013937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/Space_VortexCloud_Starless Equirect.png
-  artifactKey: Guid(9f898b0a3ba274ec78a03bf3f3f3f43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/Space_VortexCloud_Starless Equirect.png using Guid(9f898b0a3ba274ec78a03bf3f3f3f43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6976d25920d31d3f7fd0109d7f5a28') in 0.144027 seconds
-  Import took 0.148002 seconds .
+  Time since last request: 0.000248 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock031_2K_AmbientOcclusion.png
+  artifactKey: Guid(8f5936068e58f2c4dbcce58bd47c6279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock031_2K_AmbientOcclusion.png using Guid(8f5936068e58f2c4dbcce58bd47c6279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6ca1fa33a1f0ff9e7d9eac7c2745c6') in 0.948979 seconds
+  Import took 0.951593 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000319 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_2_Left+X.png
-  artifactKey: Guid(52ccb95d4f15090488f6e0fb894c094f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_2_Left+X.png using Guid(52ccb95d4f15090488f6e0fb894c094f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4d04eea156ad69befced0e11634d84') in 0.011167 seconds
-  Import took 0.013560 seconds .
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock016_2K_AmbientOcclusion.png
+  artifactKey: Guid(d4a8235949d36e741be21a7941ec3805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock016_2K_AmbientOcclusion.png using Guid(d4a8235949d36e741be21a7941ec3805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72c0e584a0c79eb5813201a32f81c06') in 0.016699 seconds
+  Import took 0.019462 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_4_Up+Y.png
-  artifactKey: Guid(b50667dd30cc965429c6aed8f29aa8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/AllSky_Space_VortexCloud_Starless_Cam_4_Up+Y.png using Guid(b50667dd30cc965429c6aed8f29aa8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cd69eae74438234b6d7dd36c227396') in 0.010784 seconds
-  Import took 0.013650 seconds .
+  Time since last request: 0.000210 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock035_2K_AmbientOcclusion.png
+  artifactKey: Guid(03d993f92e63dd5429d4dd6ca5a5710e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock035_2K_AmbientOcclusion.png using Guid(03d993f92e63dd5429d4dd6ca5a5710e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1826ea363bfff8dd343b3dd997b04b7f') in 0.018578 seconds
+  Import took 0.021208 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/Space_VortexCloud_Starless.mat
-  artifactKey: Guid(8577680dd96688647a4e4ed5bd5a6462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Allsky/Space/Space_VortexCloud_Starless/Space_VortexCloud_Starless.mat using Guid(8577680dd96688647a4e4ed5bd5a6462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f74dd7b95315b70c564eeb8e6c977a3') in 0.033488 seconds
-  Import took 0.036717 seconds .
+  Time since last request: 0.000265 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock016_2K_Color.png
+  artifactKey: Guid(0a6fc3f5be211db4ab8c33d1dc17021f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock016_2K_Color.png using Guid(0a6fc3f5be211db4ab8c33d1dc17021f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c09fc481ee3d65650c0187a79cc1cae') in 0.016703 seconds
+  Import took 0.019146 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 83.172641 seconds.
-  path: Assets/External Assets/BreakableAsteroids/Textures/Ground.mat
-  artifactKey: Guid(4a36efe8143d87d448f5620e76892efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/BreakableAsteroids/Textures/Ground.mat using Guid(4a36efe8143d87d448f5620e76892efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec882160b2f14794206ec1666f6af186') in 0.870805 seconds
-  Import took 0.874969 seconds .
+  Time since last request: 0.000227 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock012_2K_Roughness.png
+  artifactKey: Guid(224dfcdaa07c639449f4dbf0cb67263e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock012_2K_Roughness.png using Guid(224dfcdaa07c639449f4dbf0cb67263e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42df5170898719471f7e5917bcc77f80') in 0.017742 seconds
+  Import took 0.020584 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.647219 seconds.
-  path: Assets/External Assets/BreakableAsteroids/Textures/Rock012.mat
-  artifactKey: Guid(1de1e5504c8db064f85644d27342d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock012.mat using Guid(1de1e5504c8db064f85644d27342d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d63373dbe2718a6a0589f8fda59b4f5') in 0.536229 seconds
-  Import took 0.539362 seconds .
+  Time since last request: 0.000337 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture7.prefab
+  artifactKey: Guid(3411c56d2afd5af4a8df22b06f9551e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture7.prefab using Guid(3411c56d2afd5af4a8df22b06f9551e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dbd37fb57275a1244da8ad25e636f4') in 0.060872 seconds
+  Import took 0.065350 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/External Assets/BreakableAsteroids/Textures/VoidSkybox.mat
-  artifactKey: Guid(f9387886589b6464cb7bbb1b49b593ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/BreakableAsteroids/Textures/VoidSkybox.mat using Guid(f9387886589b6464cb7bbb1b49b593ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f15738d5a67b066bd2460227f2a5d4') in 0.107491 seconds
-  Import took 0.114497 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab
+  artifactKey: Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture3.prefab using Guid(0ebf9f1968066d74e9a9f74696085d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b85a1cbd35afa92fd54649271ee95a') in 0.064171 seconds
+  Import took 0.069088 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/External Assets/BreakableAsteroids/Textures/Rock012.mat
-  artifactKey: Guid(1de1e5504c8db064f85644d27342d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock012.mat using Guid(1de1e5504c8db064f85644d27342d50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d63373dbe2718a6a0589f8fda59b4f5') in 0.035883 seconds
-  Import took 0.038518 seconds .
+  Time since last request: 0.000279 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock014_2K_Color.png
+  artifactKey: Guid(cbc0078cab60ea14a8567e16c3ca31c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock014_2K_Color.png using Guid(cbc0078cab60ea14a8567e16c3ca31c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd636cc26063da228e85df14f9badfbf7') in 0.015703 seconds
+  Import took 0.018670 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/External Assets/BreakableAsteroids/Textures/Rock33.mat
-  artifactKey: Guid(a3c7d8a6513dbd14ab14a6d6a2bbe488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock33.mat using Guid(a3c7d8a6513dbd14ab14a6d6a2bbe488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee65cced81647e6cfbfaa061cc25e9b') in 0.067246 seconds
-  Import took 0.069867 seconds .
+  Time since last request: 0.000243 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture6.prefab
+  artifactKey: Guid(a024271adb4d00a43904106a318d260c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture6.prefab using Guid(a024271adb4d00a43904106a318d260c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42208400b96da9abda052f1f308a1626') in 0.059593 seconds
+  Import took 0.064383 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/External Assets/BreakableAsteroids/Textures/Rock35.mat
-  artifactKey: Guid(d0af10acfa627ee42bcdb2675b1ff396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock35.mat using Guid(d0af10acfa627ee42bcdb2675b1ff396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da1a9c062146c801a3139c089b25671') in 0.068158 seconds
-  Import took 0.070265 seconds .
+  Time since last request: 0.000303 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock031_2K_Normal.png
+  artifactKey: Guid(16d7bc718d299224f81fbac8aeeca7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock031_2K_Normal.png using Guid(16d7bc718d299224f81fbac8aeeca7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59b956347c475e851a49685b21d2649') in 0.020165 seconds
+  Import took 0.023019 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/External Assets/BreakableAsteroids/Textures/Rock31.mat
-  artifactKey: Guid(691b598e097e6f345b4aaad4d21eb87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock31.mat using Guid(691b598e097e6f345b4aaad4d21eb87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9767551eb9caf74f6dda8db37c15b8e') in 0.058880 seconds
-  Import took 0.061111 seconds .
+  Time since last request: 0.000262 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock14.prefab
+  artifactKey: Guid(ec4c29675987e87429aeec5e4e93fc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock14.prefab using Guid(ec4c29675987e87429aeec5e4e93fc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d5e49dc61ff246ee7071b05d017c38') in 0.068802 seconds
+  Import took 0.073445 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/External Assets/BreakableAsteroids/Textures/Rock16.mat
-  artifactKey: Guid(22021ecd684891549a9889fa0e221d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock16.mat using Guid(22021ecd684891549a9889fa0e221d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68eb7243a4548a3c5e851b3ed01175bb') in 0.050813 seconds
-  Import took 0.053239 seconds .
+  Time since last request: 0.000273 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock016_2K_Normal.png
+  artifactKey: Guid(755c5bc66e0a30943bead50cb21f617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock016_2K_Normal.png using Guid(755c5bc66e0a30943bead50cb21f617a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f41268dab2725e3ee4aab6c6563355') in 0.019266 seconds
+  Import took 0.022196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock035_2K_Normal.png
+  artifactKey: Guid(f1a35e1279b34db45ba32be74c01edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock035_2K_Normal.png using Guid(f1a35e1279b34db45ba32be74c01edf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a5a2ef7c9d7d810a2fb96a70f8b3d3') in 0.020034 seconds
+  Import took 0.022758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture2.prefab
+  artifactKey: Guid(8a0d737915eae7a4e8c4176987503064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture2.prefab using Guid(8a0d737915eae7a4e8c4176987503064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08028c381b643db3e12b32d944dd4bbe') in 0.059525 seconds
+  Import took 0.063976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock13.prefab
+  artifactKey: Guid(46e7653dfbf77b247bc855c46bbd4f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock13.prefab using Guid(46e7653dfbf77b247bc855c46bbd4f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b69a246fac2614ab25757d435fd57b') in 0.080177 seconds
+  Import took 0.084885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock15.prefab
+  artifactKey: Guid(c0e82ab38938b0a4ab35f65d8981ac0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock15.prefab using Guid(c0e82ab38938b0a4ab35f65d8981ac0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d7c546712cfd7b18da1218d530c596') in 0.057172 seconds
+  Import took 0.062213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture4.prefab
+  artifactKey: Guid(9b4e5fd1d3dc2424fb4276ce71f932ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture4.prefab using Guid(9b4e5fd1d3dc2424fb4276ce71f932ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0397149417b06e2ec3dd0c73b2df2a') in 0.068154 seconds
+  Import took 0.072972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock3.prefab
+  artifactKey: Guid(579e809d2465e864795196e5b0545d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock3.prefab using Guid(579e809d2465e864795196e5b0545d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583c46ad3285bc4dd25cd994a9802f61') in 0.077554 seconds
+  Import took 0.083335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture15.prefab
+  artifactKey: Guid(0df7f3e030f1da24a9abe74e81197585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture15.prefab using Guid(0df7f3e030f1da24a9abe74e81197585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372ca795bad6b10ca75c3ae11bad7d17') in 0.054167 seconds
+  Import took 0.058972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock035_2K_Displacement.png
+  artifactKey: Guid(25c8e123ef5f9af4ba9d2f6101cdf066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock035_2K_Displacement.png using Guid(25c8e123ef5f9af4ba9d2f6101cdf066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84652500f9ec5a518ebe46cc9fd8bc57') in 0.013425 seconds
+  Import took 0.016010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock033_2K_Normal.png
+  artifactKey: Guid(2e032f9af0c43c541b2e123e972e533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock033_2K_Normal.png using Guid(2e032f9af0c43c541b2e123e972e533a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f47012497eacfcce2d0dc7a6be4f07a') in 0.018634 seconds
+  Import took 0.021395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock014_2K_AmbientOcclusion.png
+  artifactKey: Guid(f505150516364d4429e35f4c629abf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock014_2K_AmbientOcclusion.png using Guid(f505150516364d4429e35f4c629abf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c12edcfd15c49f7d699ab72928acfc') in 0.014646 seconds
+  Import took 0.017484 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000272 seconds.
-  path: Assets/External Assets/BreakableAsteroids/Textures/Rock14.mat
-  artifactKey: Guid(08ccb3cdd65876c43a94da0419a284e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock14.mat using Guid(08ccb3cdd65876c43a94da0419a284e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb496ae4dbe3a853bb9f164d47df01b') in 0.080759 seconds
-  Import took 0.082941 seconds .
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock5.prefab
+  artifactKey: Guid(1b25ec5b3aa236f49bb4e00c0b8a5efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock5.prefab using Guid(1b25ec5b3aa236f49bb4e00c0b8a5efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a391b4f23d34d37073aafee987c456') in 0.054373 seconds
+  Import took 0.058840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock031_2K_Displacement.png
+  artifactKey: Guid(8cca6f180141237468a0b459b4766874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock031_2K_Displacement.png using Guid(8cca6f180141237468a0b459b4766874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6671d78a820f4e1bd0976cbf3502a7') in 0.014642 seconds
+  Import took 0.017374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock2.prefab
+  artifactKey: Guid(41059c7f21dd4994d9797364e07a3d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock2.prefab using Guid(41059c7f21dd4994d9797364e07a3d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc4c07d5893a8b57ed03e262968d488') in 0.057526 seconds
+  Import took 0.062579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock016_2K_Displacement.png
+  artifactKey: Guid(940acacf72300714fb089c5c6576b230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock016_2K_Displacement.png using Guid(940acacf72300714fb089c5c6576b230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17274f8852aca320a60f8be9337c1eb') in 0.015155 seconds
+  Import took 0.017975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock012_2K_AmbientOcclusion.png
+  artifactKey: Guid(174d347ed66a2174ead88e40da80a545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock012_2K_AmbientOcclusion.png using Guid(174d347ed66a2174ead88e40da80a545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbd11afb1e0fe09ef8421c73e7ae5ab') in 0.014260 seconds
+  Import took 0.017134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock035_2K_Color.png
+  artifactKey: Guid(dbd08748d8b36c64092ab3887ad4ae09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock035_2K_Color.png using Guid(dbd08748d8b36c64092ab3887ad4ae09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270cbada8a25fd428473e524acb6b449') in 0.015589 seconds
+  Import took 0.018504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock033_2K_Color.png
+  artifactKey: Guid(f655864df9290e545b0f533a110c29cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock033_2K_Color.png using Guid(f655864df9290e545b0f533a110c29cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440342e85bdb0af12949765fd20144bb') in 0.015865 seconds
+  Import took 0.019442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock9.prefab
+  artifactKey: Guid(3054692602d6b2c418a430defcc5dca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock9.prefab using Guid(3054692602d6b2c418a430defcc5dca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a304b0cb2f9d58638d5d6f90edbd7e0d') in 0.059193 seconds
+  Import took 0.066002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock033_2K_Displacement.png
+  artifactKey: Guid(bf2122a3337044447be0e1b9ce683af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock033_2K_Displacement.png using Guid(bf2122a3337044447be0e1b9ce683af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9f6bdefe9e760f586bd30cb04598dc') in 0.018048 seconds
+  Import took 0.021122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock014_2K_Displacement.png
+  artifactKey: Guid(54c7d1396a5cf344598f1f0ff1a5b45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock014_2K_Displacement.png using Guid(54c7d1396a5cf344598f1f0ff1a5b45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89993f97481e87b717b71ed0a3b41050') in 0.017346 seconds
+  Import took 0.020168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock014_2K_Normal.png
+  artifactKey: Guid(34ce7d3b9007e8845be18ad0c7464e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock014_2K_Normal.png using Guid(34ce7d3b9007e8845be18ad0c7464e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0a489a6e41a0e0c0a6bd9cb84c7549') in 0.017466 seconds
+  Import took 0.020051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock012_2K_Displacement.png
+  artifactKey: Guid(f2c28c4b753efd24e87098e8aee49129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock012_2K_Displacement.png using Guid(f2c28c4b753efd24e87098e8aee49129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2faf416f15213a71dd51157637e264') in 0.013391 seconds
+  Import took 0.015883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture1.prefab
+  artifactKey: Guid(9cb5e7465eef1af4988889e41a071493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture1.prefab using Guid(9cb5e7465eef1af4988889e41a071493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278193df1f29418965dd9684b8f155e0') in 0.058777 seconds
+  Import took 0.063720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture8.prefab
+  artifactKey: Guid(0ff42f37aee0fec44bcd79763ae4f92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture8.prefab using Guid(0ff42f37aee0fec44bcd79763ae4f92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb80433930d028bb9e9b296b6c6aba5c') in 0.058402 seconds
+  Import took 0.063188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock031_2K_Color.png
+  artifactKey: Guid(6684ead705837604ea03888dbd495a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock031_2K_Color.png using Guid(6684ead705837604ea03888dbd495a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a29c76eafd4e7a5adb544029efb601a') in 0.022899 seconds
+  Import took 0.025595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock11.prefab
+  artifactKey: Guid(af2725044a76460448d036210c096953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock11.prefab using Guid(af2725044a76460448d036210c096953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4665e374f6cf248933405071d177384') in 0.054083 seconds
+  Import took 0.058942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock7.prefab
+  artifactKey: Guid(2da3e069c77e294469e5af0fe430dabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock7.prefab using Guid(2da3e069c77e294469e5af0fe430dabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db45bdff4a25eae00720247fa276214') in 0.058393 seconds
+  Import took 0.063554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock4.prefab
+  artifactKey: Guid(b31bb4b021ef65f4fbaf7f2d7e56f967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock4.prefab using Guid(b31bb4b021ef65f4fbaf7f2d7e56f967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47733378a2660b0867f754c0f9e2da73') in 0.059371 seconds
+  Import took 0.063887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock033_2K_AmbientOcclusion.png
+  artifactKey: Guid(9d9b8e10bd38dd74c94cd1f3f7820ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock033_2K_AmbientOcclusion.png using Guid(9d9b8e10bd38dd74c94cd1f3f7820ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac88a9602c906ce96ec26420a41c9f13') in 0.018031 seconds
+  Import took 0.020497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock031_2K_Roughness.png
+  artifactKey: Guid(e85c2696c3ed2d740b9d04b61264b3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock031_2K_Roughness.png using Guid(e85c2696c3ed2d740b9d04b61264b3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e77309673c0b071cb118fb4b686c711') in 0.025937 seconds
+  Import took 0.028980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock016_2K_Roughness.png
+  artifactKey: Guid(82ad2f9f41b585042a2f98827c22fc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock016_2K_Roughness.png using Guid(82ad2f9f41b585042a2f98827c22fc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e0a9daac04173a20f3ee1eaab3de03') in 0.018481 seconds
+  Import took 0.021111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/The Void 8k.hdr
+  artifactKey: Guid(fe3837d93a282d140a2c68ee65a89c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/The Void 8k.hdr using Guid(fe3837d93a282d140a2c68ee65a89c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7b2db3af9ec20a3de6c2c50f1abec8') in 1.371854 seconds
+  Import took 1.379535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture5.prefab
+  artifactKey: Guid(3c8215a2e7ab319429b4a5a281da827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture5.prefab using Guid(3c8215a2e7ab319429b4a5a281da827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67540816272a22f0e67e6e4aaaf33022') in 0.055145 seconds
+  Import took 0.060187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture10.prefab
+  artifactKey: Guid(a680ad859bd92a345b6ae6b11c6a4301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture10.prefab using Guid(a680ad859bd92a345b6ae6b11c6a4301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a87353868b7a5d6416fdde163df795') in 0.070312 seconds
+  Import took 0.075107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock012_2K_Color.png
+  artifactKey: Guid(97af8ac2e59e61e4ca5a821005374c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock012_2K_Color.png using Guid(97af8ac2e59e61e4ca5a821005374c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd234e5274c5178857de3b713cb86abf6') in 0.012222 seconds
+  Import took 0.014574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/Rock12.prefab
+  artifactKey: Guid(73da260fe05fc414da1dbbca90d3030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/Rock12.prefab using Guid(73da260fe05fc414da1dbbca90d3030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9ae8e10e7d75c4a796af1bb44f2361') in 0.054225 seconds
+  Import took 0.058678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture11.prefab
+  artifactKey: Guid(858bcc836e2a98d44ab962addfd772ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Asteroids/RockFracture11.prefab using Guid(858bcc836e2a98d44ab962addfd772ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c5a7055d38bcbe419aec277841d4c6') in 0.055005 seconds
+  Import took 0.059671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock033_2K_Roughness.png
+  artifactKey: Guid(8746e6f41a3fd284abc47211a7972ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock033_2K_Roughness.png using Guid(8746e6f41a3fd284abc47211a7972ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7643c20538add54e644dea4016c50532') in 0.012390 seconds
+  Import took 0.014749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock014_2K_Roughness.png
+  artifactKey: Guid(610fdbfa9d42ed746be6d9713a94666b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock014_2K_Roughness.png using Guid(610fdbfa9d42ed746be6d9713a94666b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2a0f2b6fa25906795cc130450838e8') in 0.010242 seconds
+  Import took 0.012928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock012_2K_Normal.png
+  artifactKey: Guid(73416d68f23597642b186dfdef9a6953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock012_2K_Normal.png using Guid(73416d68f23597642b186dfdef9a6953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82588920f1aca39f1e4a92174266cf74') in 0.016961 seconds
+  Import took 0.019764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/External Assets/BreakableAsteroids/Textures/Rock035_2K_Roughness.png
+  artifactKey: Guid(3aa71d5a25fcf2d4c8ecdb25f2deb5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Assets/BreakableAsteroids/Textures/Rock035_2K_Roughness.png using Guid(3aa71d5a25fcf2d4c8ecdb25f2deb5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3173bfb4802eae6d45a38bfb6bd6c4') in 0.010829 seconds
+  Import took 0.013811 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000599 seconds.
+Registered in 0.000439 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.142 seconds
+- Completed reload, in  1.033 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.8 MB.
-System memory in use after: 125.9 MB.
+Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.4 MB.
+System memory in use after: 137.5 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1625.
-Total: 2.077076 ms (FindLiveObjects: 0.216791 ms CreateObjectMapping: 0.055983 ms MarkObjects: 1.784135 ms  DeleteObjects: 0.018295 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001294 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.014 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.1 MB.
-System memory in use after: 126.2 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1628.
-Total: 1.875367 ms (FindLiveObjects: 0.206655 ms CreateObjectMapping: 0.045942 ms MarkObjects: 1.603438 ms  DeleteObjects: 0.017280 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000720 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.547 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1125 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.3 MB.
-System memory in use after: 126.4 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1631.
-Total: 2.382138 ms (FindLiveObjects: 0.239342 ms CreateObjectMapping: 0.056922 ms MarkObjects: 2.068125 ms  DeleteObjects: 0.016593 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1616.
+Total: 2.159431 ms (FindLiveObjects: 0.292439 ms CreateObjectMapping: 0.064125 ms MarkObjects: 1.777909 ms  DeleteObjects: 0.018845 ms)
 

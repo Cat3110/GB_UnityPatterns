@@ -390,6 +390,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerData: {fileID: 11400000, guid: f20f025005d604ea580cf59c58c6023b, type: 2}
+  _enemyAsteroidData: {fileID: 11400000, guid: b2ce786554b5f427fb938304d1003b86, type: 2}
+  _enemyShipData: {fileID: 11400000, guid: a74bc81e86a2448cd9e57e87b1b2d5bd, type: 2}
 --- !u!4 &1584093102
 Transform:
   m_ObjectHideFlags: 0
